@@ -82,7 +82,7 @@ const Login = () => {
                             value={body.nickname}
                             onChange={handleChange}
                         />
-                        <TextField
+                        {/* <TextField
                             fullWidth
                             type='password'
                             color='primary'
@@ -92,7 +92,7 @@ const Login = () => {
                             name='password'
                             value={body.password}
                             onChange={handleChange}
-                        />
+                        /> */}
                         <Button
                             fullWidth
                             variant='contained'
