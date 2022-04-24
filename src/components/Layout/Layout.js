@@ -67,7 +67,7 @@ const Layout = () => {
 					<IconButton edge='start' color='inherit' onClick={() => setOpen(true)}>
 						<MenuIcon />
 					</IconButton>
-					<Typography style={{ flexGrow: 1 }}>Samus App</Typography>
+					<Typography style={{ flexGrow: 1 }}>PokeAPI</Typography>
 					<Button variant='text' color='inherit' onClick={() => history.push('/')}>Log out</Button>
 				</Toolbar>
 			</AppBar>
@@ -103,7 +103,7 @@ const Layout = () => {
 			</Container>
 			<footer className={classes.footer}>
 				<Container maxWidth='sm'>
-					<Typography align='center'>Samus © {new Date().getFullYear()}</Typography>
+					<Typography align='center'>PokeAPI UAP © {new Date().getFullYear()}</Typography>
 				</Container>
 			</footer>
 		</>
